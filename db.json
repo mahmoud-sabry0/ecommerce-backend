@@ -115,34 +115,154 @@
   ],
   "wishlist": [
     {
+      "userId": 4,
+      "productId": 6,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "productId": 3,
+      "id": 11
+    },
+    {
       "userId": 3,
       "productId": 1,
+      "id": 12
+    }
+  ],
+  "orders": [
+    {
+      "userId": 3,
+      "items": [
+        {
+          "id": 1,
+          "title": "Jersey top",
+          "price": 249,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzdA0qNtHVqrvn7ImX5rQgN03Z30IWFYggWMdw-MWWqyRwk66u44fitRmahZ99A6LqHw&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Regular Fit Jersey top",
+          "price": 229,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2QuyoJzjifz42WVMd1xkbPJKQyAOw67AdV--6tHG-oW89Il0wIi0wUePMut8E7fHHxE&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "Cotton polo shirt",
+          "price": 200,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRycTrHsEnBRzKnYRpCFGAMcT9WgzGKGVxoJusAAsHGqadEEVISqq6NKcVkWvSO5NfAOE&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Cotton t-shirt",
+          "price": 100,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu91lqkHpDCEp3L5GsbCsgVzomm3fo_My89w&s",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "title": "Sweatshirt shorts",
+          "price": 300,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uAPyag84ZBOT1PpCYoHT1R-bg1uglPYc1Q&s",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1078,
       "id": 1
     },
     {
       "userId": 3,
-      "productId": 2,
+      "items": [
+        {
+          "id": 1,
+          "title": "Jersey top",
+          "price": 249,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzdA0qNtHVqrvn7ImX5rQgN03Z30IWFYggWMdw-MWWqyRwk66u44fitRmahZ99A6LqHw&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Regular Fit Jersey top",
+          "price": 229,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2QuyoJzjifz42WVMd1xkbPJKQyAOw67AdV--6tHG-oW89Il0wIi0wUePMut8E7fHHxE&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "Cotton polo shirt",
+          "price": 200,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRycTrHsEnBRzKnYRpCFGAMcT9WgzGKGVxoJusAAsHGqadEEVISqq6NKcVkWvSO5NfAOE&usqp=CAU",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 678,
       "id": 2
     },
     {
       "userId": 3,
-      "productId": 3,
+      "items": [
+        {
+          "id": 1,
+          "title": "Jersey top",
+          "price": 249,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzdA0qNtHVqrvn7ImX5rQgN03Z30IWFYggWMdw-MWWqyRwk66u44fitRmahZ99A6LqHw&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Regular Fit Jersey top",
+          "price": 229,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy2QuyoJzjifz42WVMd1xkbPJKQyAOw67AdV--6tHG-oW89Il0wIi0wUePMut8E7fHHxE&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "title": "Cotton polo shirt",
+          "price": 200,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRycTrHsEnBRzKnYRpCFGAMcT9WgzGKGVxoJusAAsHGqadEEVISqq6NKcVkWvSO5NfAOE&usqp=CAU",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "title": "Cotton t-shirt",
+          "price": 100,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu91lqkHpDCEp3L5GsbCsgVzomm3fo_My89w&s",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "title": "Sweatshirt shorts",
+          "price": 300,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uAPyag84ZBOT1PpCYoHT1R-bg1uglPYc1Q&s",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 1378,
       "id": 3
     },
     {
       "userId": 3,
-      "productId": 5,
+      "items": [
+        {
+          "id": 4,
+          "title": "Cotton t-shirt",
+          "price": 100,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu91lqkHpDCEp3L5GsbCsgVzomm3fo_My89w&s",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "title": "Sweatshirt shorts",
+          "price": 300,
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uAPyag84ZBOT1PpCYoHT1R-bg1uglPYc1Q&s",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 400,
       "id": 4
-    },
-    {
-      "userId": 3,
-      "productId": 4,
-      "id": 5
-    },
-    {
-      "userId": 4,
-      "productId": 6,
-      "id": 6
     }
   ]
 }
